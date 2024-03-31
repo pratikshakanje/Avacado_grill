@@ -1,0 +1,216 @@
+.quote-img{
+  width: 30px;
+  height: 30px;
+}
+
+.quote-div, .quote-div-main{
+  border: 7px solid #F2EAE1;
+  padding: 90px 0;
+  padding-left: 20px;
+}
+
+.back-color-div, .back-color-div-download{
+  background-color: #F2EAE1;
+}
+
+.quote-main-div{
+  padding-left: 24px;
+  padding-right: 0;
+}
+
+.bg-img-div {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-img-div img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  position: absolute;
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+  text-align: center;
+}
+
+.quote-div p, .quote-div span{
+  color: #585C62;
+}
+
+.background-color-reserve{
+  background-color: #5F9300;
+  color: white;
+  padding: 90px 0;
+}
+
+.back-color-div{
+  padding: 90px 0;
+}
+
+.third-row{
+  padding: 0 12px;
+}
+
+.background-color-reserve p{
+  font-size: 29px;
+}
+
+.background-color-reserve span{
+  font-size: 35px;
+}
+
+.philo-div{
+  border: 7px solid #F2EAE1;
+  padding: 90px 0;
+  padding-left: 20px;
+}
+
+.philo-div p{
+  color: #5F9300;
+  font-size: 20px;
+}
+
+.philo-div span{
+  color: #65696E;
+}
+
+.back-color-div .download-para, .back-color-div-download .download-para{
+  color: #5F9300;
+  font-size: 30px;
+  text-align: center;
+}
+
+.back-color-div p{
+  font-size: 25px;
+}
+
+.footer-div{
+  border-top: 1px solid #B5B8BD;
+}
+
+.footer-div p{
+  color: #888B90;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer-div span{
+  color: #5F9300;
+}
+
+.fa-brands{
+  color: #5F9300;
+  font-size: 30px;
+  padding: 0 5px;
+}
+
+@media (min-width: 768px){
+  .philo-div, .quote-div{
+    padding: 97px 10px;
+  }
+
+  .title {
+    font-size: 63px;
+  }
+
+  .quote-div, .philo-div{
+    height: auto;
+    align-items: center;
+  }
+
+  .back-color-div-download, .background-color-reserve{
+    padding: 30px 0;
+  }
+
+  .download-para{
+    font-size: 32px !important;
+  }
+
+  .quote-div-main{
+    padding: 103px 10px;
+  }
+
+  .img-building{
+    height: auto;
+  }
+
+  .back-color-div{
+    padding: 16.5px 0;
+  }
+
+  .img-map img{
+    height: 216px;
+    width: 95%;
+  }
+}
+
+@media (min-width: 992px){
+  .img-map img{
+    height: 252px;
+    width: 50%;
+    float: right;
+  }
+
+  .back-color-div{
+    padding: 54.5px 0;
+  }
+
+  .quote-div-main{
+    padding: 37px 10px;
+    align-self: flex-end;
+  }
+
+  .background-color-reserve{
+    padding: 65px 0;
+  }
+
+  .download-menu-para{
+    color: #5F9300;
+    font-size: 33px;
+    text-align: center;
+  }
+
+  .download-menu-background{
+    background-color: #F2EAE1;
+  }
+
+  .philo-para{
+    color: #5F9300;
+    font-size: 20px;
+  }
+
+  .philo-div-lg-div{
+    border: 7px solid #F2EAE1;
+  }
+
+  .qoute-div-border{
+    border: 7px solid #F2EAE1;
+  }
+
+  .img-building img{
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 1440px){
+  .img-map img{
+    height: 341px;
+  }
+
+  .back-color-div{
+    padding: 99.5px 0;
+  }
+
+  .quote-div-main{
+    padding: 91px 10px;
+  }
+
+}
